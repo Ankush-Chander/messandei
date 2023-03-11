@@ -1,6 +1,6 @@
 # Messandei
 
-A simple language detector for rest of us.
+A simple stopword based language detector for rest of us.
 
 ### Supported languages
 - Arabic
