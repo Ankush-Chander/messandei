@@ -28,10 +28,19 @@ A simple stopword based language detector for rest of us.
 
 
 ## Installation
+#### Via pip
+messandei is available on [PyPI](https://pypi.org/project/messandei) so easily install it by pip
+```
+pip install messandei
+```
+
+#### Via source
 1. Clone [git repo](https://github.com/Ankush-Chander/messandei)
+
 ```
 git clone git@github.com:Ankush-Chander/messandei.git
 ```
+
 2. Install via pip
 ```
 pip install -e .
