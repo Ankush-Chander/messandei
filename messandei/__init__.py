@@ -25,7 +25,7 @@ for language in SUPPORTED_LANGUAGES:
 def detect_language(text: str) -> dict:
     # get potential languages for each stopword
     if not text.strip():
-        {}
+        return {}
     all_words = text.lower().split()
     stop_words = [word for word in all_words if word in STOPWORD_LANGUAGE_MAP]
     total_stopwords = len(stop_words)
